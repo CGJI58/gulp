@@ -6,7 +6,8 @@ import ws from "gulp-webserver";
 
 const routes = {
   pug: {
-    watch: "src/**/*.pug",
+    // watch: "src/**/*.pug",
+    watch: "src/*.pug",
     src: "src/*.pug",
     dest: "build",
   },
